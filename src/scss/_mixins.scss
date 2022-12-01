@@ -1,0 +1,36 @@
+@import 'variables';
+
+@mixin flex {
+    display: flex;
+}
+/* $radius is the parameter of the function */
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin margin-top-10px {
+    margin-top: $margin-top;
+}
+@mixin info-header {
+    color: $info-header-color;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@mixin social-img {
+    height: 40px;
+  width: 40px;
+}
+@mixin laf-img{
+    height: 100px;
+    width: 208px;
+}
+@mixin center {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+@mixin text {
+    color: $primary-color;
+    font-family: $fonts;
+}
