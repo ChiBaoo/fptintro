@@ -137,7 +137,7 @@ function ResponsiveAppBar() {
             </Typography>
 
             <Typography className='Navopt1'>
-              <Link to='/contact' style={{textDecoration:"none"}}
+              <Link to='../contact' style={{textDecoration:"none"}}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
                 className='Navopt'
